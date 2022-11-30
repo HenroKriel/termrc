@@ -17,6 +17,9 @@ call plug#end()
 
 " for gitgutter
 set updatetime=100
+highlight GitGutterAdd    guifg=#009900 ctermfg=2
+highlight GitGutterChange guifg=#bbbb00 ctermfg=3
+highlight GitGutterDelete guifg=#ff2222 ctermfg=1
 
 " for coc
 let g:ale_disable_lsp = 1
