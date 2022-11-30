@@ -10,16 +10,9 @@ call plug#begin()
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'tpope/vim-surround'
-Plug 'w0rp/ale'
 Plug 'airblade/vim-gitgutter'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
-
-" for ale
-" Map movement through errors without wrapping.
-nmap <silent> <C-k> <Plug>(ale_previous)
-nmap <silent> <C-j> <Plug>(ale_next)
-let g:ale_linters = {'python': ['pyflakes']}
 
 " for gitgutter
 set updatetime=100
