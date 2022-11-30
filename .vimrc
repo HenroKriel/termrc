@@ -4,6 +4,7 @@ set hidden
 set path=.,,
 set wildmode=list:longest,list:full
 set wildignorecase
+highlight clear SignColumn
 let mapleader = "\<space>"
 
 call plug#begin()
