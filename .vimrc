@@ -13,6 +13,7 @@ call plug#begin()
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-obsession'
 Plug 'airblade/vim-gitgutter'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
