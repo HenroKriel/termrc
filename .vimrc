@@ -1,6 +1,8 @@
 set relativenumber number
 set ignorecase smartcase
 set hidden
+set incsearch
+set hlsearch
 set path=.,,
 set wildmode=list:longest,list:full
 set wildignorecase
@@ -23,10 +25,8 @@ highlight GitGutterDelete guifg=#ff2222 ctermfg=1
 
 " for coc
 let g:ale_disable_lsp = 1
-" Make <CR> to accept selected completion item or notify coc.nvim to format
-" <C-g>u breaks current undo, please make your own choice.
-inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
-                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+"tab completion
+inoremap <silent><expr> <TAB> coc#pum#visible() ? coc#pum#confirm() : "\<TAB>"
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
