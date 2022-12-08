@@ -6,7 +6,6 @@ set hlsearch
 set path=.,,
 set wildmode=list:longest,list:full
 set wildignorecase
-highlight clear SignColumn
 let mapleader = "\<space>"
 
 call plug#begin()
@@ -36,3 +35,10 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 " Symbol renaming.
 nmap <leader>rn <Plug>(coc-rename)
+
+"for solarized
+syntax enable
+set background=dark
+colorscheme solarized
+highlight Normal ctermbg=none
+highlight clear SignColumn
