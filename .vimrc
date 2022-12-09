@@ -45,4 +45,4 @@ colorscheme solarized
 highlight clear SignColumn
 
 "for airline
-let g:airline#extensions#tabline#enabled = 1
+"let g:airline#extensions#tabline#enabled = 1
