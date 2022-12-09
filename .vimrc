@@ -16,6 +16,8 @@ Plug 'tpope/vim-obsession'
 Plug 'airblade/vim-gitgutter'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'altercation/vim-colors-solarized'
+Plug 'https://github.com/vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 " for gitgutter
@@ -42,3 +44,6 @@ set background=dark
 colorscheme solarized
 highlight Normal ctermbg=none
 highlight clear SignColumn
+
+"for airline
+let g:airline#extensions#tabline#enabled = 1
