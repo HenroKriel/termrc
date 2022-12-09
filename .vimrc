@@ -42,7 +42,6 @@ nmap <leader>rn <Plug>(coc-rename)
 syntax enable
 set background=dark
 colorscheme solarized
-highlight Normal ctermbg=none
 highlight clear SignColumn
 
 "for airline
