@@ -28,7 +28,6 @@ highlight GitGutterChange guifg=#bbbb00 ctermfg=3
 highlight GitGutterDelete guifg=#ff2222 ctermfg=1
 
 " for coc
-let g:ale_disable_lsp = 1
 "tab completion
 inoremap <silent><expr> <TAB> coc#pum#visible() ? coc#pum#confirm() : "\<TAB>"
 " GoTo code navigation.
@@ -44,6 +43,9 @@ syntax enable
 set background=dark
 colorscheme solarized
 highlight clear SignColumn
+hi CocMenuSel ctermfg=white ctermbg=green
+hi CocFloating ctermbg=blue ctermfg=black
+hi CocPumSearch ctermfg=white
 
 "for airline
-"let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled = 1
