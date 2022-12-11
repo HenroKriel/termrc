@@ -46,9 +46,6 @@ highlight clear SignColumn
 "stuff gets highlighted weird when launching vim from term
 highlight Normal ctermbg=none
 "coc stuff because of solarized
-highlight CocMenuSel ctermfg=white ctermbg=green
-highlight CocFloating ctermbg=blue ctermfg=black
-highlight CocPumSearch ctermfg=white
 
 "for airline
 let g:airline#extensions#tabline#enabled = 1
