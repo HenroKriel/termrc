@@ -1,0 +1,10 @@
+/*
+!.vimrc
+!.zshrc
+!.gitignore
+
+!/.config
+/.config/*
+!/.config/lvim
+/.config/lvim/*
+!/.config/lvim/config.lua
