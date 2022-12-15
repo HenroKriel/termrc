@@ -3,7 +3,7 @@ lvim.plugins = {
   {"ishan9299/nvim-solarized-lua"},
   {"tpope/vim-surround"},
 }
-lvim.o.number = true
+vim.opt.relativenumber = true
 ---end my stuff
 --[[
 lvim is the global options object
